@@ -1,7 +1,7 @@
 {
   "name": "api_hardware_rn",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -12,7 +12,9 @@
     "expo": "~52.0.17",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "react-native-device-info": "^14.0.1",
+    "expo-device": "~7.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
